@@ -49,6 +49,12 @@ const MENUITEMS = [
     type: 'link',
     name: 'Slide Toggle',
     icon: 'all_inclusive'
+  },
+  {
+    state: 'tables',
+    type: 'link',
+    name: 'tables',
+    icon: 'all_inclusive'
   }
 ];
 

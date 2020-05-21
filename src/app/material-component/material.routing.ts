@@ -16,6 +16,7 @@ import { TooltipComponent } from './tooltip/tooltip.component';
 import { SnackbarComponent } from './snackbar/snackbar.component';
 import { SliderComponent } from './slider/slider.component';
 import { SlideToggleComponent } from './slide-toggle/slide-toggle.component';
+import { TablesComponent } from './tables/tables.component';
 
 export const MaterialRoutes: Routes = [
   {
@@ -81,5 +82,9 @@ export const MaterialRoutes: Routes = [
   {
     path: 'slide-toggle',
     component: SlideToggleComponent
+  },
+  {
+    path: 'tables',
+    component: TablesComponent
   }
 ];
